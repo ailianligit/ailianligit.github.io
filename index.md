@@ -1,7 +1,8 @@
 ## ElianLi's BLOG
 
 ### 谢梓慧你在干嘛？
-要记得多读书，多看报，早睡早起身体好！
+要记得多读书，多看报，少吃零食多睡觉，早睡早起身体好！
+（无视下方内容）
 
 You can use the [editor on GitHub](https://github.com/ailianligit/ailianligit.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
