@@ -1,4 +1,0 @@
-# Dynamic Programming
-
-## Knapsack Problem
-
