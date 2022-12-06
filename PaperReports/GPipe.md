@@ -24,7 +24,7 @@
 
 
 
-![image-20221031002933938](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320508.png)
+![image-20221031002933938](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320880.png)
 
 
 
