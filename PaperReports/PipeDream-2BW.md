@@ -22,4 +22,4 @@
 
 
 
-![image-20221031015258308](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221031015258308.png)
+![image-20221031015258308](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321647.png)

@@ -9,7 +9,7 @@
 
 ## Introduction
 
-![image-20221030205651980](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320584.png)
+![image-20221030205651980](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321552.png)
 
 
 
@@ -25,7 +25,7 @@
 
 - #### Poor Convergence on Heterogeneous Data
 
-<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320598.png" alt="image-20221030230605485" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321564.png" alt="image-20221030230605485" style="zoom:50%;" />
 
 - #### Lack of Solution Personalization
 
@@ -33,7 +33,7 @@
 
 ## Strategy I: Global Model Personalization
 
-![image-20221030230916781](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030230916781.png)
+![image-20221030230916781](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321587.png)
 
 ### Data-Based Approaches
 
@@ -62,13 +62,13 @@
 
 #### Transfer learning
 
-![image-20221030232323201](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030232323201.png)
+![image-20221030232323201](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321600.png)
 
 
 
 ## Strategy II: Learning Personalized Models
 
-![image-20221030232547263](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030232547263.png)
+![image-20221030232547263](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321609.png)
 
 ### Architecture-Based Approaches
 
@@ -86,7 +86,7 @@
 
 #### Clustering: group-level
 
-![image-20221030232726107](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030232726107.png)
+![image-20221030232726107](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221206_1670321621.png)
 
 
 
