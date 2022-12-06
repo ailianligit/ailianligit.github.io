@@ -9,7 +9,7 @@
 
 ## Introduction
 
-![image-20221030205651980](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030205651980.png)
+![image-20221030205651980](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320584.png)
 
 
 
@@ -25,7 +25,7 @@
 
 - #### Poor Convergence on Heterogeneous Data
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20221030230605485.png" alt="image-20221030230605485" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/images/images/202212/20221206_1670320598.png" alt="image-20221030230605485" style="zoom:50%;" />
 
 - #### Lack of Solution Personalization
 
