@@ -21,7 +21,7 @@ Federated learning (FL) has been widely adopted to train machine learning models
     - communication: reduce the frequency of global aggregation, gradient sparsification & quantization
   - ignore **device heterogeneity (different computation & storage capabilities)**
 
-![image-20221202114130978](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221202114130978.png)
+![image-20221202114130978](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498895.png)
 
 - existing pruning methods?
   - **unstructured pruning**

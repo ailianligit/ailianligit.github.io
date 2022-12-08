@@ -12,13 +12,13 @@
 
 ### 1.1 The Cross-Device Federated Learning Setting
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027222257247.png" alt="image-20221027222257247" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498603.png" alt="image-20221027222257247" style="zoom: 67%;" />
 
  
 
 #### 1.1.1 The Lifecycle of a Model in Federated Learning
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027223632459.png" alt="image-20221027223632459" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498611.png" alt="image-20221027223632459" style="zoom:50%;" />
 
 - Problem identification - Client instrumentation - Simulation prototyping (optional) - Federated model training - (Federated) model evaluation - Depolyment
 
@@ -39,4 +39,4 @@
 
 
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221031221059147.png" alt="image-20221031221059147" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498628.png" alt="image-20221031221059147" style="zoom:50%;" />

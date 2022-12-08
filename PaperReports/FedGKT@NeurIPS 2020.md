@@ -45,15 +45,15 @@
   - Low compute demand at the edge in SL
   - Group knowledge transfer: reformulates FL as an alternating minimization (AM) approach, which optimizes two random variables (the edge model and the server model) by alternatively fixing one and optimizing another.
 
-![image-20221026160028772](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221026160028772.png)
+![image-20221026160028772](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498573.png)
 
 
 
 ## Group Knowledge Transfer
 
-![image-20221026160427801](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221026160427801.png)
+![image-20221026160427801](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498579.png)
 
-![image-20221026160609497](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221026160609497.png)
+![image-20221026160609497](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498586.png)
 
 
 

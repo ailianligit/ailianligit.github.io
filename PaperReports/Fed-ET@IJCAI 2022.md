@@ -30,9 +30,9 @@
 - weighted consensus distillation with diversity regularization
 - server representation transfer
 
-![image-20221026221708534](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221026221708534.png)
+![image-20221026221708534](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498457.png)
 
-![image-20221026221948950](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221026221948950.png)
+![image-20221026221948950](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498546.png)
 
 
 

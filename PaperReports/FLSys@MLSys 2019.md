@@ -16,23 +16,23 @@
 
 ## Protocol
 
-![image-20221027174309621](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027174309621.png)
+![image-20221027174309621](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498647.png)
 
 
 
 ## Device
 
-![image-20221027174340432](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027174340432.png)
+![image-20221027174340432](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498662.png)
 
 
 
 ## Server
 
-![image-20221027174437425](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027174437425.png)
+![image-20221027174437425](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498667.png)
 
 
 
 ## Tools and Workflow
 
-![image-20221027174547920](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221027174547920.png)
+![image-20221027174547920](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498674.png)
 

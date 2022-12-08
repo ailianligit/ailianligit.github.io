@@ -11,4 +11,4 @@
 
 ## Introduction
 
-![image-20221115152615646](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221115152615646.png)
+![image-20221115152615646](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498562.png)

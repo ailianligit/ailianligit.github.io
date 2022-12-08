@@ -14,7 +14,7 @@
   - many sources of **heterogeneity**
   - increasing cohort size does not reduce wall-clock training time proportionally
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221114203605278.png" alt="image-20221114203605278" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498702.png" alt="image-20221114203605278" style="zoom:50%;" />
 
 - AsyncFL: Papaya
   - **secure** aggregation protocol
@@ -37,11 +37,11 @@
 
 ## Proposed Design
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221114203518339.png" alt="image-20221114203518339" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498711.png" alt="image-20221114203518339" style="zoom:50%;" />
 
 ## System Components
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221114203956240.png" alt="image-20221114203956240" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498717.png" alt="image-20221114203956240" style="zoom:50%;" />
 
 
 

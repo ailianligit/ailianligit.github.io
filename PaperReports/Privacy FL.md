@@ -15,13 +15,13 @@
 
 ## Federated learning landscape
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101164942548.png" alt="image-20221101164942548" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498740.png" alt="image-20221101164942548" style="zoom:50%;" />
 
 
 
 ## FL categorization of techniques/approaches
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101165032156.png" alt="image-20221101165032156" style="zoom:50%;" /><img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101165431518.png" alt="image-20221101165431518" style="zoom:50%;" /><img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101165444868.png" alt="image-20221101165444868" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498753.png" alt="image-20221101165032156" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498777.png" alt="image-20221101165431518" style="zoom:50%;" /><img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498789.png" alt="image-20221101165444868" style="zoom:50%;" />
 
 
 
@@ -58,7 +58,7 @@
 - Eavesdropping
 - Interplay with data protection laws
 
-![image-20221101191526611](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101191526611.png)
+![image-20221101191526611](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498804.png)
 
 
 
@@ -78,7 +78,7 @@
 - Foolsgold
 - **Pruning**: address backdoor attacks and communication bottlenecks
 
-![image-20221101193849823](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101193849823.png)
+![image-20221101193849823](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498811.png)
 
 
 
@@ -99,7 +99,7 @@
 - VerifyNet
 - Adversarial training
 
-![image-20221101194213220](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101194213220.png)
+![image-20221101194213220](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498820.png)
 
 
 
@@ -119,7 +119,7 @@
 
 # [Survey] Privacy and Robustness in Federated Learning: Attacks and Defenses
 
-![image-20221101204345196](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101204345196.png)
+![image-20221101204345196](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498830.png)
 
 
 
@@ -129,15 +129,15 @@
 - a learning model can be considered as a representation of the high-level statistics of the dataset
 - target at **data** privacy
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101204411118.png" alt="image-20221101204411118" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498837.png" alt="image-20221101204411118" style="zoom:50%;" />
 
 
 
 ## Defenses Against Privacy Attacks
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101204453158.png" alt="image-20221101204453158" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498846.png" alt="image-20221101204453158" style="zoom:50%;" />
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101205140960.png" alt="image-20221101205140960" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498852.png" alt="image-20221101205140960" style="zoom:67%;" />
 
 
 
@@ -150,10 +150,10 @@
 - targeted poisoning attacks
 - data poisoning attacks are generally less effective than model poisoning attacks   
 
-<img src="C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101205159792.png" alt="image-20221101205159792" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498859.png" alt="image-20221101205159792" style="zoom:50%;" />
 
 
 
 ## Defenses Against Poisoning Attacks
 
-![image-20221101205319092](C:\Users\wudic\AppData\Roaming\Typora\typora-user-images\image-20221101205319092.png)
+![image-20221101205319092](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221208_1670498867.png)
