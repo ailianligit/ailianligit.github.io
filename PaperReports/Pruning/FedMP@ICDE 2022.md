@@ -40,3 +40,7 @@ Federated learning (FL) has been widely adopted to train machine learning models
   - a **Multi-Armed Bandit (MAB)** based online learning algorithm: determine the **pruning ratios** for the workers even **without knowing any prior knowledge of their capabilities**, adaptively learn the **quantitative relationship among pruning ratio, resource consumption and model performance** to achieve the **trade-off between efficiency and accuracy**
   - **Residual Recovery Synchronous Parallel (R2SP)**: **recovers the sub-models** with diverse structures before model aggregation and **ensures comprehensive model updates** during the training process
   - effective for **different heterogeneous scenarios and data distributions**, up to 4.1× speedup compared to the **existing FL methods**
+
+
+
+## Proposed Framework
