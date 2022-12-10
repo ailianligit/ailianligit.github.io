@@ -25,12 +25,13 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 - existing pruning methods?
   - **unstructured pruning**
-    - removes the unimportant weights (i.e., the connections between the neurons)
+    - removes the unimportant **weights** (i.e., the connections between the neurons)
+      - does not efficiently reduce the computation time since most removed weights are from the fully-connected layers, but the computation cost is concentrated in the convolutional layers   
     - a high level of **parameter sparsity** and irregularization of the resulting sparse matrix
       - difficult to compress the parameters in memory
       - specialized hardware/libraries are required to accelerate the model training
   - structured pruning
-    - remove some unimportant model structures (e.g., convolutional filters) without introducing **sparsity**
+    - remove some unimportant **model structures** (e.g., convolutional filters) without introducing **sparsity**
     - a sub-figure or sub-model of the original neural network
     - contains **fewer parameters** and helps **reduce both communication and computation overhead**
   - proposed for **centralized model training**
@@ -44,3 +45,22 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 
 ## Proposed Framework
+
+### Adaptive Model Pruning
+
+- **distributed** model pruning
+- **structured pruning**
+- every layer uses the **same pruning ratio**
+- **filter’s score**: the sum of the absolute kernel weights
+- **neuron’s score**: the sum of the absolute weights that the neuron is connected to
+
+### Local Training
+
+- The larger the pruning ratio is (i.e., more global model parameters are pruned), the fewer **CPU cycles** it requires to process a data sample.
+
+### Model Aggregation
+
+- R2SP: recover the sub-models
+- aggregating the recovered models: derive an updated global model
+
+### Convergence Analysis
