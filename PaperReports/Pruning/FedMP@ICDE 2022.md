@@ -48,11 +48,16 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 ### Adaptive Model Pruning
 
+- pruning ratio: $\alpha_n^k$ for each worker $n$ in round $k$
 - **distributed** model pruning
 - **structured pruning**
 - every layer uses the **same pruning ratio**
 - **filter’s score**: the sum of the absolute kernel weights
 - **neuron’s score**: the sum of the absolute weights that the neuron is connected to
+  - low-weight connections have a weak effect on model accuracy
+
+- When **the filters with their feature maps** are pruned, the **corresponding channels of filters in the next layer** are also removed
+- if **a convolutional layer** is pruned, **the weights of the subsequent batch normalization layer** are removed too.
 
 ### Local Training
 
