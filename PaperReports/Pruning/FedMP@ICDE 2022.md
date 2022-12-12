@@ -46,6 +46,8 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 ## Proposed Framework
 
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202212/20221212_1670851392.png" alt="image-20221212212255538" style="zoom: 50%;" />
+
 ### Adaptive Model Pruning
 
 - pruning ratio: $\alpha_n^k$ for each worker $n$ in round $k$
@@ -57,7 +59,7 @@ Federated learning (FL) has been widely adopted to train machine learning models
   - low-weight connections have a weak effect on model accuracy
 
 - When **the filters with their feature maps** are pruned, the **corresponding channels of filters in the next layer** are also removed
-- if **a convolutional layer** is pruned, **the weights of the subsequent batch normalization layer** are removed too.
+- if **a convolutional layer** is pruned, **the weights of the subsequent batch normalization layer** are removed too
 
 ### Local Training
 
@@ -65,7 +67,28 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 ### Model Aggregation
 
-- R2SP: recover the sub-models
+- **R2SP**: recover the sub-models
+  - **Sparse model $\textbf{x}_n^k$**: has the same network structure as the global model except that some parameters to be (**logically**) pruned are set to 0
+    - **Residual model $\overline{\textbf{x}}_n^k$**: global model $\textbf{x}^k$ - sparse model $\textbf{x}_n^k$
+    - further reduce the memory overhead: **quantize** each parameter in residual models with fewer bits
+
+  - **Sub-model $\hat{\textbf{x}}_n^k$**: has a more compact structure compared to the sparse model, as some parameters are pruned **physically**
+    - the **indexes** (binary vector) of the remaining parameters also need to be recorded for each worker $n$
+
+  - each model parameter has a chance to be trained
+
 - aggregating the recovered models: derive an updated global model
 
 ### Convergence Analysis
+
+
+
+## Algorithm For Pruning Ratio Decision
+
+
+
+## Evaluation
+
+
+
+## Discussion
