@@ -81,6 +81,12 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 ### Convergence Analysis
 
+- Assumptions of loss function:
+  - **Smoothness**: Each function $f_n(x)$ is smooth with modulus $L$
+  - **Bounded variances** and **second moments**
+- **pruning error**: $Q^k_n\triangleq \mathbb{E}\left[\lVert \textbf{x}^k-\textbf{x}^k_n\rVert^2\right]$
+  - the larger the pruning error is, leading to a looser convergence bound
+
 
 
 ## Algorithm For Pruning Ratio Decision
