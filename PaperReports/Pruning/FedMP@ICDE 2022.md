@@ -108,6 +108,30 @@ Federated learning (FL) has been widely adopted to train machine learning models
 
 ## Algorithm For Pruning Ratio Decision
 
+$$
+T_{n}^{k}=T_{n, \text { comp }}^{k}+T_{n, c o m m}^{k}
+$$
+
+$$
+T^{k}\left(\alpha_{1}^{k}, \alpha_{2}^{k}, \ldots, \alpha_{N}^{k}\right)=\max _{n} T_{n}^{k}
+$$
+
+$$
+\begin{array}{l}
+\min \sum_{k=0}^{K} T^{k}\left(\alpha_{1}^{k}, \alpha_{2}^{k}, \ldots, \alpha_{N}^{k}\right) \\
+\text { s.t. }\left\{\begin{array}{l}
+f\left(\mathbf{x}^{K}\right)<\varepsilon \\
+0 \leq \alpha_{n}^{k}<1, \quad \forall n, \forall k
+\end{array}\right.
+\end{array}
+$$
+
+- Challenge 1: optimal model pruning ratios: trade-off between resource efficiency and training accuracy
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202302/20230212_1676212647.png" alt="image-20230212165306397" style="zoom: 33%;" />
+
+- Challenge 2: adaptively determine different pruning ratios for heterogeneous workers
+
 
 
 ## Evaluation
