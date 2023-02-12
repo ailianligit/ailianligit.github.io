@@ -1,4 +1,4 @@
-# FedMP: Federated Learning through Adaptive Model Pruning in Heterogeneous Edge Computing
+# [FedMP@ICDE 2022] FedMP: Federated Learning through Adaptive Model Pruning in Heterogeneous Edge Computing
 
 ## Abstract
 
@@ -86,6 +86,23 @@ Federated learning (FL) has been widely adopted to train machine learning models
   - **Bounded variances** and **second moments**
 - **pruning error**: $Q^k_n\triangleq \mathbb{E}\left[\lVert \textbf{x}^k-\textbf{x}^k_n\rVert^2\right]$
   - the larger the pruning error is, leading to a looser convergence bound
+
+### 算法
+
+- 自适应模型剪枝：
+
+  - 每轮$k \in\{0,1, \ldots, K\}$，中心服务器根据每个客户端$n$的**能力**来决定特定的剪枝率$\alpha_{n}^{k}$
+
+  - 然后中心服务器根据剪枝率将全局模型$\mathbf{x}^{k}$**结构化**修剪为子模型，每层使用相同的剪枝率，通过重要性分数（L1范数）指标将不重要的filters/neurons剪掉
+
+  - 发送给客户端进行本地训练
+
+- 本地训练：每一次训练，客户端利用本地数据集对子模型进行$\tau$次的迭代更新，当迭代次数$t \in\{0,1, \ldots, I\}$为$\tau$的倍数时，进行模型聚合
+
+
+- 模型聚合：
+  - 中心服务器基于**模型残差**和存储的索引信息对子模型进行恢复
+  - 通过聚合恢复后的模型对全局模型进行更新
 
 
 
