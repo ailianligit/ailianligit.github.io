@@ -9,3 +9,9 @@
 - experiments
   - reduce the training time compared to conventional FL and various other pruning-based methods 
   - the pruned model with automatically determined size converges to an accuracy that is very similar to the original model, and it is also a lottery ticket of the original model
+
+
+
+## Introduction
+
+- computation power, communication bandwidth, memory and storage size, and so on
