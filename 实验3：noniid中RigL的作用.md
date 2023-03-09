@@ -1,4 +1,31 @@
+消融实验
+
 超参数变化
+
+--distribution iid dirichlet
+--beta 0.1 0.5
+
+--sparsity 0.5
+
+--need-readjust
+--readjustment-ratio 0.0 0.1 0.3 0.5 0.7 0.9
+
+--outfile
+--device
+
+python fedavg.py --distribution dirichlet --beta 0.1 --sparsity 0.5 --need-readjust --readjustment-ratio 0.1 --outfile cifar10_05_dirichlet_01_readjust_01_a.csv --device 2
+
+python fedavg.py --distribution dirichlet --beta 0.1 --sparsity 0.5 --need-readjust --readjustment-ratio 0.3 --outfile cifar10_05_dirichlet_01_readjust_03_a.csv --device 3
+
+python fedavg.py --distribution dirichlet --beta 0.1 --sparsity 0.5 --need-readjust --readjustment-ratio 0.5 --outfile cifar10_05_dirichlet_01_readjust_05_a.csv --device 0
+
+python fedavg.py --distribution dirichlet --beta 0.1 --sparsity 0.5 --need-readjust --readjustment-ratio 0.7 --outfile cifar10_05_dirichlet_01_readjust_07_a.csv --device 2
+
+python fedavg.py --distribution dirichlet --beta 0.1 --sparsity 0.5 --need-readjust --readjustment-ratio 0.9 --outfile cifar10_05_dirichlet_01_readjust_09_a.csv --device 3
+
+
+
+
 
 cifar10_05_iid_read_03.csv
 
