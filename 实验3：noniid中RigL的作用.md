@@ -2,6 +2,8 @@
 
 超参数变化
 
+噪声数据对超参数xuan'ze
+
 --distribution iid dirichlet
 --beta 0.1 0.5
 
