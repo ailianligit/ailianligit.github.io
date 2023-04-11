@@ -1,4 +1,4 @@
-# [Fed-ET@IJCAI 2022] Heterogeneous Ensemble Knowledge Transfer for Training Large Models in Federated Learning
+# [Fed-ET@IJCAI‘22] Heterogeneous Ensemble Knowledge Transfer for Training Large Models in Federated Learning
 
 ## Abstract
 

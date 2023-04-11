@@ -1,4 +1,4 @@
-# [FedGKT@NeurIPS 2020] Group Knowledge Transfer Federated Learning of Large CNNs at the Edge
+# [FedGKT@NeurIPS’20] Group Knowledge Transfer Federated Learning of Large CNNs at the Edge
 
 ## Abstract
 

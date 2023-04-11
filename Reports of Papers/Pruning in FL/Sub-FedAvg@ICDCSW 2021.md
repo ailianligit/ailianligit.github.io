@@ -14,8 +14,6 @@ The traditional approach in FL tries to learn a single global model collaborativ
 - 客户端不需要了解其他客户端之间的任何基础数据分布或标签相似性。
 - 每个客户端本地数据的非 IID 性质提供了不同的子网，而无需共享任何数据。 
 
-
-
 <img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202302/20230219_1676791317.gif" alt="img" style="zoom:67%;" />
 
 <img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202302/20230219_1676791347.gif" alt="img"  />
