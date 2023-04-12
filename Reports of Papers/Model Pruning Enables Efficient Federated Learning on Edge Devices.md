@@ -1,4 +1,4 @@
-# [PruneFL@TNNLS 2022] Model Pruning Enables Efficient Federated Learning on Edge Devices
+# [PruneFL@TNNLS'22] Model Pruning Enables Efficient Federated Learning on Edge Devices
 
 ## Abstract
 

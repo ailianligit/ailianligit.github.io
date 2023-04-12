@@ -1,4 +1,4 @@
-# [RigL@ICML 2020] Rigging the Lottery: Making All Tickets Winners
+# [RigL@ICML'20] Rigging the Lottery: Making All Tickets Winners
 
 ## Abstract
 

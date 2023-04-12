@@ -1,4 +1,4 @@
-# [PipeDream-2BW@ICML 2021] Memory-Efficient Pipeline-Parallel DNN Training
+# [PipeDream-2BW@ICML'21] Memory-Efficient Pipeline-Parallel DNN Training
 
 ## Abstract
 

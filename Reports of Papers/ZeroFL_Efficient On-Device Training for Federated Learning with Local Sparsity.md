@@ -1,4 +1,4 @@
-# [ZeroFL@ICLR 2022] ZEROFL: EFFICIENT ON-DEVICE TRAINING FOR FEDERATED LEARNING WITH LOCAL SPARSITY  
+# [ZeroFL@ICLR'22] ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity
 
 ## Abstract
 

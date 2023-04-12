@@ -1,4 +1,4 @@
-# [SET@Nature 2018] Scalable training of artificial neural networks with adaptive sparse connectivity inspired by network science
+# [SET@Nature'18] Scalable training of artificial neural networks with adaptive sparse connectivity inspired by network science
 
 ## Abstract
 

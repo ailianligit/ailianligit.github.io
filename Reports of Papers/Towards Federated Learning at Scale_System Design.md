@@ -1,4 +1,4 @@
-# [MLSys 2019] Towards Federated Learning at Scale: System Design
+# [MLSys'19] Towards Federated Learning at Scale: System Design
 
 ## Introduction
 

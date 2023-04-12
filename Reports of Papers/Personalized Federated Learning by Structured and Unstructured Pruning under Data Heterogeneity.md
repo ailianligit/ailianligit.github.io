@@ -1,4 +1,4 @@
-# [Sub-FedAvg@ICDCSW 2021] Personalized Federated Learning by Structured and Unstructured Pruning under Data Heterogeneity
+# [Sub-FedAvg@ICDCSW'21] Personalized Federated Learning by Structured and Unstructured Pruning under Data Heterogeneity
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-# [FedDST@AAAI 2022] Federated Dynamic Sparse Training: Computing Less, Communicating Less, Yet Learning Better
+# [FedDST@AAAI'22] Federated Dynamic Sparse Training: Computing Less, Communicating Less, Yet Learning Better
 
 ## Abstract
 

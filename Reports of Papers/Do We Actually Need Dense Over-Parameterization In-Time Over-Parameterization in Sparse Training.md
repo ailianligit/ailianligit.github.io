@@ -1,4 +1,4 @@
-# [ITOP@ICML 2021] Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training
+# [ITOP@ICML'21] Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training
 
 ## Abstract
 

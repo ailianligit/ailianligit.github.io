@@ -1,4 +1,4 @@
-# [GPipe@NeurIPS 2019] Efficient Training of Giant Neural Networks using Pipeline Parallelism
+# [GPipe@NeurIPS'19] Efficient Training of Giant Neural Networks using Pipeline Parallelism
 
 ## Abstract
 

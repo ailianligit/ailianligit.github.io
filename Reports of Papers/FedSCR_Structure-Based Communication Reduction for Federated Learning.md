@@ -1,4 +1,4 @@
-# [FedSCR@TPDS 2021] FedSCR: Structure-Based Communication Reduction for Federated Learning
+# [FedSCR@TPDS'21] FedSCR: Structure-Based Communication Reduction for Federated Learning
 
 - 背景：Non-IID 属性会导致局部loss和权重差异很大，从而导致**精度下降**，以及聚合参数的巨大**通信开销**
 - 实验：揭示在 IID 和 Non-IID 数据上训练时参数更新的演变

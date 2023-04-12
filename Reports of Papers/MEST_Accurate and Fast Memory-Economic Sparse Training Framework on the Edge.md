@@ -1,4 +1,4 @@
-# [MEST@NeurIPS 2021] MEST: Accurate and Fast Memory-Economic Sparse Training Framework on the Edge
+# [MEST@NeurIPS'21] MEST: Accurate and Fast Memory-Economic Sparse Training Framework on the Edge
 
 ## Abstract
 

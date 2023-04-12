@@ -1,4 +1,4 @@
-# [Report] On the Opportunities and Risks of Foundation Models
+# [Survey] On the Opportunities and Risks of Foundation Models
 
 ## Abstract
 

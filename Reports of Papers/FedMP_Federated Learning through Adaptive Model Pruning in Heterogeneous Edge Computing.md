@@ -1,4 +1,4 @@
-# [FedMP@ICDE 2022] FedMP: Federated Learning through Adaptive Model Pruning in Heterogeneous Edge Computing
+# [FedMP@ICDE'22] FedMP: Federated Learning through Adaptive Model Pruning in Heterogeneous Edge Computing
 
 ## Abstract
 

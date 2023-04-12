@@ -1,4 +1,4 @@
-# [FedGEMS@ICLR‘22] FedGEMS: Federated Learning of Larger Server Models via Selective Knowledge Fusion
+# [FedGEMS@ICLR'22] FedGEMS: Federated Learning of Larger Server Models via Selective Knowledge Fusion
 
 ## Abstract
 

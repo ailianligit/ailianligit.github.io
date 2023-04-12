@@ -1,4 +1,4 @@
-# [PAPAYA@MLSys 2022] PAPAYA: Practical, Private, and Scalable Federated Learning
+# [PAPAYA@MLSys'22] PAPAYA: Practical, Private, and Scalable Federated Learning
 
 ## Abstract
 

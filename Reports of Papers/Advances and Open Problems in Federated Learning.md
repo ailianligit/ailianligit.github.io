@@ -1,4 +1,4 @@
-# Advances and Open Problems in Federated Learning
+# [Survey] Advances and Open Problems in Federated Learning
 
 ## 1 Introduction
 

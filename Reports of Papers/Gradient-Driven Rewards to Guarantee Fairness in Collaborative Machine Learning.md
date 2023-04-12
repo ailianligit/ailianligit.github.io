@@ -1,4 +1,4 @@
-# [CGSV@NeurIPS 2021] Gradient-Driven Rewards to Guarantee Fairness in Collaborative Machine Learning
+# [CGSV@NeurIPS'21] Gradient-Driven Rewards to Guarantee Fairness in Collaborative Machine Learning
 
 ## Abstract
 

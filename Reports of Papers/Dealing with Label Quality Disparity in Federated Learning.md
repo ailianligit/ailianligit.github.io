@@ -1,4 +1,4 @@
-# [FOC@LNAI 2020] Dealing with Label Quality Disparity in Federated Learning
+# [FOC] Dealing with Label Quality Disparity in Federated Learning
 
 ## Abstract
 
