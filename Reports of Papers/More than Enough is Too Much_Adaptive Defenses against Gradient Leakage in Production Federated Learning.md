@@ -29,4 +29,3 @@
 - 实验
   - 效用指标：收敛需要的 wall-clock 时间和收敛的准确率
   - 隐私指标：在最坏情况下抵御梯度泄露攻击的防御的有效性
-- **gradient inversion attacks?**

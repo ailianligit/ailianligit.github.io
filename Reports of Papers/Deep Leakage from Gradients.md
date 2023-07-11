@@ -40,3 +40,18 @@
 ![image-20230711183641291](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230711_1689071802.png)
 
 ![image-20230711183740988](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230711_1689071862.png)
+
+
+
+## 实验
+
+- 图像分类
+- 掩码语言模型
+
+
+
+## 防御策略
+
+- 梯度加噪（梯度扰动）：高斯噪声和拉普拉斯噪声、半精度
+- **梯度压缩和稀疏化**：有效
+- 更大的batch，更高的分辨率和密码学
