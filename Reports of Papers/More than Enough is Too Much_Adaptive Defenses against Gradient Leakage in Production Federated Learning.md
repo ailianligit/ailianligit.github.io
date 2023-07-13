@@ -33,3 +33,35 @@
 
 
 ## 预备知识
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230713_1689253536.png" alt="image-20230713210535043" style="zoom:50%;" />
+
+
+
+## 在Production FL中重新评估梯度泄露攻击
+
+### A. 假设：在Production FL中重新评估有效性
+
+- Gradients are not shared directly with the server
+- Neural network models are not initialized explicitly before training
+  - 神经网络模型中的初始权重极大地影响了执行梯度反转攻击的难度
+
+![image-20230713211714571](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230713_1689254236.png)
+
+- There are multiple update steps (across batches and epoches) in local training
+  - $\tau=E \cdot n / B$
+  - 大多数假设：$B=n\ge1, E=1$
+  - Production FL：$n> 1, B<n, E>1$
+- Label estimation is more challenging with non-i.i.d. data distributions
+
+### B. 更加复杂的DLG攻击
+
+- Approximating gradients from updates
+
+- **Matching deltas from updates**
+
+![image-20230713215824198](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230713_1689256705.png)
+
+
+
+## OUTPOST：轻量化防御方案
