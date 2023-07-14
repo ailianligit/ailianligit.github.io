@@ -1,5 +1,28 @@
 # [OUTPOST@INFOCOM'23] More than Enough is Too Much: Adaptive Defenses against Gradient Leakage in Production Federated Learning
 
+## 总结
+
+- 解决问题：在production FL中研究梯度泄露攻击，设计一个实用、简单、轻量级的防御方法
+- 重要发现：在production FL中许多假设都不成立
+  - **model updates** ≠ gradients
+  - There are **multiple update** steps (across batches and epoches) in local training
+    - $\tau=E \cdot n / B$
+    - 大多数假设：$B=n\ge1, E=1$
+    - Production FL：$n> 1, B<n, E>1$
+  - Label estimation is more challenging with **non-i.i.d**. data distributions
+  - 神经网络模型中的**初始权重**极大地影响了执行梯度反转攻击的难度
+
+![image-20230713211714571](https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230714_1689307925.png)
+
+- Outpost
+  - **轻量级**防御机制，针对随时间变化的隐私泄露风险级别提供**充分且自适应的保护**
+  - 基于magnitudes进行**梯度压缩**
+  - 根据隐私泄露风险向梯度添加**高斯噪声**，隐私泄露风险通过**每层模型权重的分布**进行量化，并通过**经验Fisher矩阵**选择添加噪声的梯度
+  - 为了限制计算开销和训练性能下降，Outpost仅执行**基于迭代的衰减的扰动**
+- 实验效果：在时间开销、准确率和隐私保护方面实现最佳的权衡
+
+
+
 ## 摘要
 
 - 梯度攻击（gradient attacks）对原始数据的隐私构成的威胁是有限的
@@ -65,3 +88,33 @@
 
 
 ## OUTPOST：轻量化防御方案
+
+- 隐私泄露的风险：the magnitude of neural network weights -> the privacy leakage risks of the corresponding gradients
+- 选择性扰动：empirical Fisher for each model parameter
+
+$$
+\widehat{\mathbf{F}}=\frac{1}{n / B} \sum_{i=1}^{n / B} \nabla \mathcal{L}_{\theta i} \cdot \nabla \mathcal{L}_{\theta i}^{\top}
+$$
+
+- 基于迭代的扰动衰减：$\text{Pr}=1/(1+\beta\cdot i)$
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230714_1689304223.png" alt="image-20230714111021836" style="zoom: 50%;" />
+
+
+
+## 实验结果
+
+- 训练性能：accuracy loss少，time-consuming少
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230714_1689305535.png" alt="image-20230714113213675" style="zoom:50%;" />
+
+- 防御性能
+  - Performing the attack on a **larger batch size** not only makes the attacks significantly slower, but also worse
+  - **MSE** is the most inconsistent metric and a higher MSE does not correlate to a reconstructed image containing fewer key features of ground truth
+
+
+
+## 相关工作
+
+- 梯度泄露攻击：DLG、iDLG（只需要恢复输入）、Inverting Gradients（余弦相似度）、GradInversion（更高的fidelity和更好的localization）、GIAS（关于预训练生成模型的先验知识）
+- 梯度泄露攻击的防御方法：梯度压缩、本地差分隐私、Soteria（对全连接层中的数据表示添加扰动）、GradDefense（扰动所有层）、GradDefense（灵敏度测量和所有层扰动）

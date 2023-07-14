@@ -1,5 +1,16 @@
 # [DLG@NeurIPS'21] Deep Leakage from Gradients
 
+## 总结
+
+- 提出问题：共享梯度可能会泄露私人训练数据
+- Deep Leakage from Gradients（DLG）：恢复图像pixel-wise精确，恢复文本token-wise匹配
+- 解决方法
+  - 梯度加噪（扰动）：高斯噪声和拉普拉斯噪声、半精度
+  - **梯度压缩和稀疏化**
+  - 更大的batch，更高的分辨率和密码学
+
+
+
 ## 摘要
 
 - the recovery is **pixelwise accurate** for images and **token-wise matching** for texts
