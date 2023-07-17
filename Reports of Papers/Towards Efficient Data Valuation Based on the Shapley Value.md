@@ -9,7 +9,8 @@
 ## 相关工作
 
 - feature selection
-- data valuation
+- understanding model behaviors
+- data valuation: **fairness**
 
 
 
@@ -25,8 +26,11 @@ $$
   - Group Rationality (Efficiency)
   - Fairness (Symmetry & Null player)
   - Additivity (Linearity)
+- Complexity: $O(2^N)$
 
 
 
 ## 高效的SV估计
 
+- 基线：排列采样
+- 基于group测试的方法
