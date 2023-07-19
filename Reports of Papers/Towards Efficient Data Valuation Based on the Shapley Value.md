@@ -19,6 +19,13 @@
 - Shapley value
 
 $$
+s_{i}=\sum_{S \subseteq I \backslash\{i\}} \frac{1}{N\left(\begin{array}{c}
+N-1 \\
+|S|
+\end{array}\right)}[U(S \cup\{i\})-U(S)]
+$$
+
+$$
 s_{i}=\frac{1}{N !} \sum_{\pi \in \Pi(D)}\left[U\left(P_{i}^{\pi} \cup\{i\}\right)-U\left(P_{i}^{\pi}\right)\right]
 $$
 
@@ -33,4 +40,7 @@ $$
 ## 高效的SV估计
 
 - 基线：排列采样
+  - approximates the SV for any **bounded utility functions** with provable guarantees
+  - 通过样本均值降低计算shapley value需要的排列数
 - 基于group测试的方法
+  - 减少评估用户子集utility的次数
