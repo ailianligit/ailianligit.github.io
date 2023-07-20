@@ -58,8 +58,30 @@ $$
 - 稳定的学习算法
 - 基于影响函数的启发式算法
   - training a large number of models on different subsets of data
-  - stratified sampling can be used to approximate the SV, which customizes **the number of samples** for estimating each expectation term
+  - influence function heuristics
+  - stratified sampling trick
+  - Largest-S Approximation: focuses on the marginal contribution of each training data point to **a single subset**
 
 
 
 ## 实验结果
+
+- 比较估计准确率
+- 运行时间比较
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230720_1689841194.png" alt="image-20230720161948851" style="zoom: 50%;" />
+
+- 在稀疏性假设下的估计
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230720_1689841248.png" alt="image-20230720162044040" style="zoom:67%;" />
+
+- 稳定的学习算法
+- 隐私保护数据的值
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230720_1689843405.png" alt="image-20230720165639142" style="zoom: 80%;" />
+
+- 对抗样本的值
+
+<img src="https://raw.githubusercontent.com/ailianligit/ailianligit.github.io/main/images/202307/20230720_1689843563.png" alt="image-20230720165917643" style="zoom: 50%;" />
+
+## 结论
