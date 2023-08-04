@@ -12,4 +12,4 @@ for $t=0,1,...$
 
 返回最终的$W$：$W_{PLA}$
 
-![image-20211110194414111](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211110194414111.png)
+![image-20211110194414111](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078847.png)

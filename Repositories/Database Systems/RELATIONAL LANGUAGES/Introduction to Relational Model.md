@@ -33,7 +33,7 @@
 - **Foreign-key** constraints appear as **arrows** from the foreign-key attributes of the referencing relation to the primary key of the referenced relation
 - **Referential Integrity Constraint**: **two-headed arrow**
 
-![image-20211008002759086](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008002759086.png)
+![image-20211008002759086](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079297.png)
 
 
 

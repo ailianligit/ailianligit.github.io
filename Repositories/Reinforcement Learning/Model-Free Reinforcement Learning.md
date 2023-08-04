@@ -19,7 +19,7 @@
 
   - $G_{i,t}$: computed return of episode $i$
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302104602373.png" alt="image-20220302104602373" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079826.png" alt="image-20220302104602373" style="zoom:50%;" />
 
 
 
@@ -32,7 +32,7 @@
   - TD target (**estimated** return): $R_{t+1}+\gamma v\left(S_{t+1}\right)$
   - TD error: $\delta_t=R_{t+1}+\gamma v\left(S_{t+1}\right)-v\left(S_{t}\right)$
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302105251831.png" alt="image-20220302105251831" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079824.png" alt="image-20220302105251831" style="zoom:50%;" />
 
 
 
@@ -44,7 +44,7 @@
   - with probability 1-$\epsilon$ choose the greedy action
   - with probability $\epsilon$ choose an action at random
 
-![image-20220302113811463](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302113811463.png)
+![image-20220302113811463](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079821.png)
 
 
 
@@ -54,7 +54,7 @@
 
 - learn about policy $\pi$ from the experience collected from $\pi$
 
-![image-20220302114444617](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302114444617.png)
+![image-20220302114444617](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079819.png)
 
 #### Q-Learning: Off-Policy
 
@@ -62,6 +62,6 @@
   - $\pi$ (target policy): is being learned about & becomes the optimal policy, is greedy on $Q(s,a)$ ($A'$)
   - $\mu$: is more exploratory & is used to generate trajectories, is $\epsilon$-greedy on $Q(s,a)$ ($A$)
 
-![image-20220302114753637](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302114753637.png)
+![image-20220302114753637](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079817.png)
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220302120535684.png" alt="image-20220302120535684" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079816.png" alt="image-20220302120535684" style="zoom:50%;" />

@@ -60,7 +60,7 @@ FILE *fp;
 fp = fopen( 文件名, 文件使用方式 ); 
 ```
 
-![image-20210706203141742](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210706203141742.png)
+![image-20210706203141742](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078923.png)
 
 - 打开动作并非一定成功，打开失败时fopen返回NULL。
 - 若要写的文件不存在，则将**先创建**这个文件，然后再往这个文件里面写入数据。
@@ -74,7 +74,7 @@ fread( buffer, size, count, fp1 );
 fwrite( buffer, size, count, fp2 );
 ```
 
-![image-20210706203423091](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210706203423091.png)
+![image-20210706203423091](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078930.png)
 
 - fwrite返回实际写入（输出）的数据项的个数，而fread返回实际读入（输入）的数据项的个数。
 

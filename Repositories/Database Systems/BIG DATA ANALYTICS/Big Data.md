@@ -36,7 +36,7 @@
 - Distributed file systems good for **millions** of large files
 - But have very high **overheads** and poor **performance** with **billions** of smaller tuples
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211214103327879.png" alt="image-20211214103327879" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079100.png" alt="image-20211214103327879" style="zoom:67%;" />
 
 
 
@@ -127,7 +127,7 @@
   - **map**(k,v) -> list(k1,v1)
   - **reduce**(k1, list(v1)) -> v2
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211214111323987.png" alt="image-20211214111323987" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079104.png" alt="image-20211214111323987" style="zoom: 67%;" />
 
 
 
@@ -150,7 +150,7 @@
 
 ### Parallel Processing of MapReduce Job
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211214111427385.png" alt="image-20211214111427385" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079106.png" alt="image-20211214111427385" style="zoom:80%;" />
 
 
 

@@ -21,7 +21,7 @@ class 派生类名: 继承访问控制 基类类名{
 
 - 继承访问控制和成员访问控制均由保留public、protected、private来定义，缺省**均为**private。
 
-![image-20210703192733518](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210703192733518.png)
+![image-20210703192733518](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078906.png)
 
 - 派生类的对象不仅存放了在派生类中定义的非静态数据成员，而且也存放了从基类中继承下来的非静态数据成员。
 

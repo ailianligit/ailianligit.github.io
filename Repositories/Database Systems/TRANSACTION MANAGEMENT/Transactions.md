@@ -22,7 +22,7 @@
   - Kill the transaction
 - **Committed**: after successful completion
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211109163901235.png" alt="image-20211109163901235" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079460.png" alt="image-20211109163901235" style="zoom:50%;" />
 
 
 
@@ -93,7 +93,7 @@
 - **Recoverable** **schedule**: if a transaction *Tj* reads a data item previously written by a transaction *Ti*, then the **commit** operation of *Ti* appears **before** the **commit** operation of *Tj*
 - The following schedule is not recoverable:
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211116163536545.png" alt="image-20211116163536545" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079455.png" alt="image-20211116163536545" style="zoom: 67%;" />
 
 
 
@@ -102,7 +102,7 @@
 - **Cascading rollback**: a single transaction failure leads to a series of transaction rollbacks. Can lead to the undoing of a significant amount of work
 - The schedule is recoverable:
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211116164008699.png" alt="image-20211116164008699" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079453.png" alt="image-20211116164008699" style="zoom:67%;" />
 
 - **Cascadeless** **schedules**: cascading rollbacks cannot occur; For each pair of transactions *Ti* and *Tj* such that *Tj* reads a data item previously written by *Ti*, the **commit** operation of *Ti*  appears **before** the **read** operation of *Tj*
 

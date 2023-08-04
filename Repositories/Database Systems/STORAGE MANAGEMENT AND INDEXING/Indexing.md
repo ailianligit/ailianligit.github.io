@@ -37,7 +37,7 @@
   - For **unclustered index**: sparse index on top of dense index (**multilevel index**)
 - Nonclustered Index: Index record points to a **bucket** that contains pointers to all the actual records with that particular search-key value. Secondary indices **have to be dense**
 
-![image-20211026174626580](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211026174626580.png)
+![image-20211026174626580](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079379.png)
 
 
 
@@ -58,7 +58,7 @@
   - **outer index**: a sparse index of the basic index
   - **inner index**: the basic index file
 
-![image-20211026175327365](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211026175327365.png)
+![image-20211026175327365](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079376.png)
 
 
 
@@ -122,9 +122,9 @@
 - For a leaf node, Pn points to **next leaf node** in search-key order; For a non-leaf node, all the search-keys in the subtree to which *Pn* points have values **greater than or equal to** *Kn*–1
 - The search-keys in a node are ordered: *K*1 < *K*2 < *K*3 < *. . .* < *K*n*–*1
 
-![image-20211102111335424](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102111335424.png)
+![image-20211102111335424](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079371.png)
 
-![image-20211102110207162](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102110207162.png)
+![image-20211102110207162](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079369.png)
 
 
 
@@ -160,11 +160,11 @@ function find(v)
     - In the worst case the root node may be split increasing the **height** of the tree by 1
 - add "Adams" & "Lamport"
 
-![image-20211102135316942](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102135316942.png)
+![image-20211102135316942](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079366.png)
 
-![image-20211102135329790](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102135329790.png)
+![image-20211102135329790](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079364.png)
 
-![image-20211102135414874](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102135414874.png)
+![image-20211102135414874](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079363.png)
 
 - Splitting a non-leaf node: when inserting (k,p) into an already full internal node N
   - Copy N to an in-memory area M with space for n+1 pointers and n keys
@@ -191,15 +191,15 @@ function find(v)
 
 - delete "Srinivasan", "Singh", "Wu" & "Gold"
 
-![image-20211102140407505](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102140407505.png)
+![image-20211102140407505](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079358.png)
 
-![image-20211102140441131](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102140441131.png)
+![image-20211102140441131](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079357.png)
 
-![image-20211102140507892](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102140507892.png)
+![image-20211102140507892](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079355.png)
 
 - Value separating two nodes (at the parent) is **pulled down** when merging
 
-![](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102140557962.png)
+![](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079353.png)
 
 
 
@@ -247,7 +247,7 @@ function find(v)
 - To improve space utilization, involve more sibling nodes in redistribution during splits and merges
   - Involving 2 siblings in redistribution (to avoid split / merge where possible) results in each node having at least $$\lfloor 2n/3\rfloor$$ entries
 
-![image-20211102151429742](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102151429742.png)
+![image-20211102151429742](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079350.png)
 
 
 
@@ -319,7 +319,7 @@ function find(v)
 - Search keys in nonleaf nodes appear nowhere else in the B-tree; an **additional pointer field** for each search key in a nonleaf node must be included
 - Nonleaf node: pointers Bi are the **bucket** or **file record pointers**
 
-![image-20211102160724493](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102160724493.png)
+![image-20211102160724493](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079346.png)
 
 - Advantages of B-Tree indices:
   - May use **less tree nodes** than a corresponding B+-Tree
@@ -331,7 +331,7 @@ function find(v)
   - Insertion and deletion more **complicated** than in B+-Tree
   - Implementation is **harder** than B+-Trees
 
-![image-20211102161015884](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102161015884.png)
+![image-20211102161015884](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079344.png)
 
 
 
@@ -424,7 +424,7 @@ function find(v)
   - Bitmap has as many bits as **records**
   - In a bitmap for value v, the bit for a record is 1 if the record has the value v for the attribute, and is 0 otherwise
 
-![image-20211102165938047](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211102165938047.png)
+![image-20211102165938047](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079339.png)
 
 - Bitmap indices are useful for **queries on multiple attributes**, not particularly useful for **single attribute queries**
 

@@ -4,15 +4,15 @@
 
 - **lossy decomposition**
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009233206441.png" alt="image-20211009233206441" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079242.png" alt="image-20211009233206441" style="zoom:67%;" />
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009232929557.png" alt="image-20211009232929557" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079239.png" alt="image-20211009232929557" style="zoom: 67%;" />
 
 - **lossless decomposition**: if there is no loss of information by replacing R with the two relation schemas ***R1*  U *R2***
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009233132702.png" alt="image-20211009233132702" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079238.png" alt="image-20211009233132702" style="zoom: 67%;" />
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009233230387.png" alt="image-20211009233230387" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079236.png" alt="image-20211009233230387" style="zoom:67%;" />
 
 - **Normalization Theory**: Decide whether a particular relation *R* is in “good” form (Each relation is in **good** form; The decomposition is a **lossless** decomposition), based on **functional dependencies** & **multivalued dependencies**
 
@@ -32,7 +32,7 @@
 
 - The functional dependency **α→β** holds on ***R*** if and only if for any **legal relations *r*(R)**, whenever any two tuples *t*1 and *t*2 of *r* agree on the attributes a, they also agree on the attributes *b*
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009234749456.png" alt="image-20211009234749456" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079232.png" alt="image-20211009234749456" style="zoom:67%;" />
 
 
 
@@ -184,15 +184,15 @@ while (changes to result) do
 - An attribute of a functional dependency in *F* is **extraneous** if we can remove it without changing *F*+
 - Removing an attribute from the **left** side of a functional dependency could make it a **stronger** constraint
 
-![image-20211015120014946](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211015120014946.png)
+![image-20211015120014946](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079224.png)
 
-![image-20211015120135482](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211015120135482.png)
+![image-20211015120135482](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079222.png)
 
 - Removing an attribute from the **right** side of a functional dependency could make it a **weaker** constraint
 
-![image-20211015120023506](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211015120023506.png)
+![image-20211015120023506](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079220.png)
 
-![image-20211015120044688](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211015120044688.png)
+![image-20211015120044688](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079219.png)
 
 
 
@@ -359,7 +359,7 @@ return (R1, R2, ..., Ri)
   - *t*3[β] = *t*1[β] & *t*4[β] = *t*2[β]
   - *t*3[*R –* β] = *t*2[*R –* β] & *t*4[*R –* β] = *t*1[*R –* β]
 
-![image-20211020005512069](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211020005512069.png)
+![image-20211020005512069](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079212.png)
 
 - Let *R* be a relation schema with a set of attributes that are partitioned into 3 nonempty subsets: *Y, Z, W*, *Y* →→ *Z* if *Y* →→ *W*
 

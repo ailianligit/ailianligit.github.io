@@ -44,7 +44,7 @@ from student natural join takes natural join course;
 - **Join condition**: defines which tuples in the two relations match
 - **Join type**: defines how tuples in each relation that do not match any tuple in the other relation (based on the join condition) are treated
 
-![image-20210922174655066](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210922174655066.png)
+![image-20210922174655066](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079285.png)
 
 
 

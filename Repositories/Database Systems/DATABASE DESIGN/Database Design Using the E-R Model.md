@@ -35,7 +35,7 @@
 - An **entity** is an object that exists and is distinguishable from other objects,  is a set of entities of the same type that **share the same properties**
 - An entity is represented by a set of **attributes**, a subset of the attributes form a **primary key** of the entity set; i.e., uniquely identifying each member of the set
 
-![image-20211008210822728](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008210822728.png)
+![image-20211008210822728](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079166.png)
 
 
 
@@ -43,15 +43,15 @@
 
 - A relationship set is a mathematical relation among *n* ≥ 2 entities, each taken from entity sets
 
-![image-20211008210755927](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008210755927.png)
+![image-20211008210755927](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079164.png)
 
 - An **attribute** can also be associated with a relationship set
 
-![image-20211008210801709](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008210801709.png)
+![image-20211008210801709](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079163.png)
 
 - Entity sets of a relationship need not be distinct. Each occurrence of an entity set plays a “role” in the relationship
 
-![image-20211008210930632](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008210930632.png)
+![image-20211008210930632](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079161.png)
 
 
 
@@ -68,17 +68,17 @@
 - For a **binary** relationship set the mapping cardinality must be one of the following types: one-to-one, one-to-many, many-to-one & many-to-many
 - Some elements in *A* and *B* may not be mapped to any elements in the other set
 
-![image-20211008212200765](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008212200765.png)
+![image-20211008212200765](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079159.png)
 
-![image-20211008212207393](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008212207393.png)
+![image-20211008212207393](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079158.png)
 
-![image-20211008212226996](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008212226996.png)
+![image-20211008212226996](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079156.png)
 
-![image-20211008212313447](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008212313447.png)
+![image-20211008212313447](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079155.png)
 
 - **Total participation**: every entity in the entity set participates in at least one relationship in the relationship set
 
-![image-20211008212411757](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008212411757.png)
+![image-20211008212411757](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079153.png)
 
 - **Partial participation**: some entities may not participate in any relationship in the relationship set
 - We allow at most **one** arrow out of a **ternary** (or greater degree) relationship to indicate a cardinality constraint
@@ -130,7 +130,7 @@
 
   
 
-![image-20211008215609689](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211008215609689.png)
+![image-20211008215609689](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079150.png)
 
 
 
@@ -152,7 +152,7 @@ instructor(ID,
            first_name, middle_initial, last_name,street_number, street_name, apt_number, 			city, state, zip_code, date_of_birth)
 ```
 
-![image-20211009003953358](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009003953358.png)
+![image-20211009003953358](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079148.png)
 
 
 
@@ -189,7 +189,7 @@ instructor(ID,
 - Depicted by a *triangle* component labeled ISA (e.g., *instructor* “is a” *person*)
 - **Attribute inheritance**: a lower-level entity set inherits all the **attributes** and **relationship** participation of the higher-level entity set to which it is linked
 
-![image-20211009165230525](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009165230525.png)
+![image-20211009165230525](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079144.png)
 
 
 
@@ -200,13 +200,13 @@ instructor(ID,
   - Form a schema for each lower-level entity set, include **primary key of higher-level** entity set and **local** attributes
   - Drawback: getting information about, an *employee* requires accessing two relations, the one corresponding to the **low-level** schema and the one corresponding to the **high-level** schema
 
-![image-20211009165857679](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009165857679.png)
+![image-20211009165857679](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079143.png)
 
 - Method 2:
   - Form a schema for each entity set with **all** local and inherited attributes
   - Drawback: *name, street* and *city* may be stored redundantly for people who are both students and employees
 
-![image-20211009165957441](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009165957441.png)
+![image-20211009165957441](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079141.png)
 
 
 
@@ -230,22 +230,22 @@ instructor(ID,
 - Aggregation is an abstraction through which **relationships** are treated as **higherlevel** **entities**
 - To represent aggregation, create a schema containing **primary key of the aggregated relationship**, the **primary key of the associated entity set** & any **descriptive attributes**
 
-![image-20211009171146863](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009171146863.png)
+![image-20211009171146863](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079139.png)
 
-![image-20211009171154297](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009171154297.png)
+![image-20211009171154297](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079137.png)
 
 
 
 ## Entity-Relationship Design Issues
 
-![image-20211009172139844](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009172139844.png)
+![image-20211009172139844](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079136.png)
 
-![image-20211009172146407](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009172146407.png)
+![image-20211009172146407](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079133.png)
 
 - Possible guideline is to designate a relationship set to describe an **action** that occurs between entities
 - Any non-binary relationship can be represented using binary relationships by creating an **artificial** entity set
 
-![image-20211009173330631](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009173330631.png)
+![image-20211009173330631](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079131.png)
 
 - There may be instances in the translated schema that **cannot** correspond to any instance of *R*, we can avoid creating an identifying attribute by **making E a weak entity set** (described shortly) identified by the three relationship sets
 
@@ -264,8 +264,8 @@ instructor(ID,
 
 ## Alternative Notations for Modeling Data
 
-![image-20211009164728347](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009164728347.png)
+![image-20211009164728347](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079128.png)
 
-![image-20211009164750375](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009164750375.png)
+![image-20211009164750375](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079126.png)
 
-![image-20211009164801235](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211009164801235.png)
+![image-20211009164801235](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079123.png)

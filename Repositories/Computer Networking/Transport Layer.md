@@ -6,13 +6,13 @@
 
 ## UDP(TCP)/IP数据报
 
-![image-20210620164027292](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620164027292.png)
+![image-20210620164027292](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079053.png)
 
 - IP头部中协议号字段：TCP-6，UDP-17，ICMP-1，IGMP-2
 
 - 伪IP头的组成部分：源IP地址、目的IP地址、协议号和UDP/TCP**（头部）**的长度。
 
-![image-20210620165934918](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620165934918.png)
+![image-20210620165934918](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079051.png)
 
 - 传输层的数据单元（报文）称为**数据段**（Data Segment）。
 
@@ -24,7 +24,7 @@
 - 接收进程每次接收**一个**完整的数据报，如果进程设置的接收缓冲区不够大，收到的数据报将被截断。接收进程收到的数据段数与接收缓冲区大小无关。
 - UDP报文组成部分：源端口号、目的端口号、总长度、校验和、UDP数据
 
-![image-20210620170559892](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620170559892.png)
+![image-20210620170559892](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079047.png)
 
 - **总长度：**UDP报文部分的长度
 - **校验和：**由伪IP头、UDP头和UDP数据形成。如果发送方把校验和设置为0，接收方会忽略校验和。
@@ -40,7 +40,7 @@
 - 一个进程可以与其它进程建立两个以上的TCP连接。
 - **Maximum Segment Size：**每个数据段的数据部分**（TCP数据）**的最大长度。
 
-![image-20210620171930402](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620171930402.png)
+![image-20210620171930402](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079044.png)
 
 - **序号：**字节流中每个**字节**均被编号。初始序号采用**基于时间**的方案。数据部分的第一个字节的编号为初始序号**加1**。每个数据段的序号采用其数据部分第一个字节的编号。
 - **确认号：**期待接收的下一个数据段的编号。只有设置了确认标志（ACK），确认号才有效。
@@ -48,7 +48,7 @@
 - **通知窗口大小：**发送窗口为确认号之后发送方还可以发送的字节的序号范围。接收方用通知窗口大小告知发送方接收窗口的大小，发送方会据此修改发送窗口的大小。
 - **紧急指针**：指出带外数据的边界，**不属于字节流**。只有设置了URG标志，紧急指针才有效。
 
-![image-20210620172746607](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620172746607.png)
+![image-20210620172746607](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079042.png)
 
 - **标志：**URG（包含紧急数据）、ACK（确认号有效）、PSH（接收方尽快将缓存的数据交给接收进程）、RST（连接出现错误，通知对方立即中止连接并释放相关资源）、SYN（发起TCP连接，数据段包含**初始序号**）、FIN（向对方表示自己不再发送**数据**）
 
@@ -56,7 +56,7 @@
 
 ## TCP三次握手建立连接和四次握手释放连接
 
-![image-20210620174858145](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620174858145.png)
+![image-20210620174858145](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079039.png)
 
 - 服务器收到客户端发来的连接请求后查看是否有进程监听该端口。如果没有，则发RST拒绝；如果有，则发出SYN+ACK包。
 - 每一步均采用**超时重传**，多次重发后将放弃。
@@ -64,15 +64,15 @@
 - 使用三次握手建立连接的原因：若只有一次握手，客户端只要发送了连接请求就认为TCP连接。当服务器不存在或者没打开时，发送数据只会浪费带宽，并且无法获取服务器传来的**初始序号和选项**；若只有两次握手，客户端可以发送大量伪造源地址的连接请求，服务器确认后以为连接已经建立，最后会耗尽资源，进而拒绝所有合法的连接请求，无法提供正常的服务（DoS攻击-带宽消耗攻击）。
 - 即使使用三次握手，服务器也可能因为遭遇恶意攻击而瘫痪。黑客可以控制许多主机对一台服务器进行泛洪攻击，发送大量连接请求去请求服务器服务，由于服务器接收不到返回的确认信息，一直处于等待状态，而分配给这次请求的资源却被有被释放。最终服务器的资源被耗尽，无法为合法用户提供服务，从而使服务器瘫痪。（DDoS攻击-系统资源消耗攻击）
 
-![image-20210620175924641](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620175924641.png)
+![image-20210620175924641](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079036.png)
 
-![image-20210620180337601](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620180337601.png)
+![image-20210620180337601](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079034.png)
 
 - 发送FIN数据段的一方说明它不再发送任何数据了，但是可以发送不含数据的ACK包。
 - FIN报文超时自动重发，在若干次重发后依然没有收到确认，则发送**RST报文**给对方后强行关闭连接。先发送FIN报文的一方在ACK发送完毕后需要等待**2MSL**(Maximum Segment Lifetime)的时间才完全关闭连接，原因是等待该连接的数据在因特网中消失。
 - 进程异常退出时内核会直接发送**RST报文**而不是四次握手来关闭连接。
 
-![image-20210620180458616](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620180458616.png)
+![image-20210620180458616](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079030.png)
 
 
 
@@ -100,17 +100,17 @@
 
 - 初始公式
 
-![image-20210620215348111](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620215348111.png)
+![image-20210620215348111](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079026.png)
 
 - Jacobson算法
 
-![image-20210620215704709](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620215704709.png)
+![image-20210620215704709](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079019.png)
 
-![image-20210620215713140](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620215713140.png)
+![image-20210620215713140](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079017.png)
 
 - Karn算法：在每次重传时直接把RTO加倍直到数据段首次得到确认，并把这个RTO作为后续段的RTO。   
 
-![image-20210620220035190](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620220035190.png)
+![image-20210620220035190](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079016.png)
 
 
 
@@ -142,13 +142,13 @@
 
   （4）拥塞发生后，CongWin回到减半后的阈值处开始增长。（*Fast Recovery*）
 
-![image-20210620224032831](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210620224032831.png)
+![image-20210620224032831](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079012.png)
 
 
 
 ## Long Fat Pipe
 
-![image-20210621002108568](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210621002108568.png)
+![image-20210621002108568](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079008.png)
 
 - Window Size=AdvWin*2^WinScale
 - 序号回绕：使用一般数据段的选项“timestamp”（时间戳）区分TCP长肥管道中的同序号数据段。
@@ -158,7 +158,7 @@
 
 ## Deadlock
 
-![image-20210621004309537](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210621004309537.png)
+![image-20210621004309537](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079005.png)
 
 - 当窗口为0时，如果取空接收缓冲区之后发送的ACK丢失，则会发生死锁。
 

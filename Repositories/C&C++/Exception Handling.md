@@ -61,4 +61,4 @@ catch(...) {...}		//任意异常类型均可匹配
 
 **runtime_error：**表示难以被预先检测的异常
 
-![image-20210702013256666](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210702013256666.png)
+![image-20210702013256666](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078896.png)

@@ -38,7 +38,7 @@ $$
 P(X>x|H_0)=\alpha\\p\text{-value}=1-F(x)
 $$
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211203201534749.png" alt="image-20211203201534749" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079627.png" alt="image-20211203201534749" style="zoom: 33%;" />
 
 
 
@@ -119,4 +119,4 @@ $$
 
 ## Probability Plot
 
-![image-20220108212516985](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220108212516985.png)
+![image-20220108212516985](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079623.png)

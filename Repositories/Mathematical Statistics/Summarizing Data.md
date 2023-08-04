@@ -31,7 +31,7 @@
   f_h(x)=\frac{1}{n}\sum^n_{i=1}w_h(x-X_i)=\frac{1}{nh}\sum^n_{i=1}w(\frac{x-x_i}{h})
   $$
 
-![image-20220108224856372](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220108224856372.png)
+![image-20220108224856372](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079613.png)
 
 
 
@@ -85,4 +85,4 @@ $$
 
 ## Boxplots
 
-![image-20220108232412287](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220108232412287.png)
+![image-20220108232412287](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079609.png)

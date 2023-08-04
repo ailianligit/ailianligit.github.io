@@ -48,9 +48,9 @@ IP协议可以运行在任何网络上。
 
 ### IP Datagram
 
-![image-20210510105212809](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210510105212809.png)
+![image-20210510105212809](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078965.png)
 
-![image-20210510105247881](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210510105247881.png)
+![image-20210510105247881](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078967.png)
 
 #### Type of Quality(ToS)
 
@@ -108,7 +108,7 @@ IP地址属于**接口**，主机或路由器的每个接口可以配置一个�
 
 ### Classed Network
 
-![image-20210510112034429](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210510112034429.png)
+![image-20210510112034429](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078986.png)
 
 在有类网模型中，可用的A、B、C类网个数（区分网络数和地址数）分别要减2，因为网络号全0和全1不可用。
 
@@ -242,7 +242,7 @@ Exterior Gateway Protocols(EGP): 外部网关协议用于在AS之间建立动态
 
 ### 形成和扩散NLRI
 
-![image-20210702200330940](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210702200330940.png)
+![image-20210702200330940](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078980.png)
 
 - ORIGIN：指出形成NLRI的方法，IGP表示是由管理员加入的，INCOMPLETE表示是聚合形成的。
 
@@ -277,14 +277,14 @@ Exterior Gateway Protocols(EGP): 外部网关协议用于在AS之间建立动态
 
 ### 分组格式
 
-![image-20210702193435663](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210702193435663.png)
+![image-20210702193435663](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078976.png)
 
 - Length：整个报文的长度。不小于19，不大于4096。
 - Marker：用于对等方身份认证机制或同步机制。 
 
 ### UPDATE分组格式
 
-![image-20210702193647724](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20210702193647724.png)
+![image-20210702193647724](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691078972.png)
 
 - Unfeasible routes length：撤销路由（Withdrawn routes）的长度。
 - Path attributes：AS_PATH、 NEXT_HOP等。

@@ -10,7 +10,7 @@
 - Lock requests are made to **concurrency-control manager**. Transaction can proceed only after request is **granted**
 - **Lock-compatibility matrix**
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211116174847325.png" alt="image-20211116174847325" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079430.png" alt="image-20211116174847325" style="zoom:67%;" />
 
 - Any number of transactions can hold **shared locks** on an item
 - But if any transaction holds an **exclusive** on the item no other transaction may hold any lock on the item
@@ -35,7 +35,7 @@
 - The protocol assures serializability. Two-phase locking is not a necessary condition for serializability
 - It can be proved that the transactions can be serialized in the order of their **lock points** (i.e., the point where a transaction acquired its final lock)
 
-![image-20211123173931086](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211123173931086.png)
+![image-20211123173931086](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079427.png)
 
 - Two-phase locking *does not* ensure freedom from deadlocks
 
@@ -79,7 +79,7 @@
 
 ### Lock Table
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211123175941269.png" alt="image-20211123175941269" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079424.png" alt="image-20211123175941269" style="zoom: 50%;" />
 
 - **Dark** rectangles indicate **granted** locks, **light** colored ones indicate **waiting** requests
 - Lock table also records the **type** of lock granted or requested
@@ -140,7 +140,7 @@
 - The system is in a deadlock state if and only if the wait-for graph has a **cycle**
 - Invoke a deadlock-detection algorithm **periodically** to look for cycles
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211123204808864.png" alt="image-20211123204808864" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079421.png" alt="image-20211123204808864" style="zoom:67%;" />
 
 
 
@@ -165,7 +165,7 @@
   - **Coarse granularity** (higher in tree): low locking overhead, low concurrency
 - The levels, starting from the coarsest (top) level are *database*, *area*, *file* & *record*
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211123205239359.png" alt="image-20211123205239359" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079418.png" alt="image-20211123205239359" style="zoom: 50%;" />
 
 
 
@@ -178,7 +178,7 @@
 - Intention locks allow a **higher level node** to be locked in S or X mode without having to check all descendent nodes
 - The compatibility matrix for all lock modes is: 
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211123233936642.png" alt="image-20211123233936642" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079416.png" alt="image-20211123233936642" style="zoom:80%;" />
 
 
 
@@ -225,7 +225,7 @@
 
 - The timestamp-ordering protocol guarantees **serializability** since all the arcs in the precedence graph are of the form below, thus there will be no cycles in the precedence graph
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211130104004438.png" alt="image-20211130104004438" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079413.png" alt="image-20211130104004438" style="zoom:67%;" />
 
 - Timestamp protocol ensures **freedom** **from** **deadlock** as no transaction ever waits
 - But the schedule may not be **cascade-free**, and may not even be **recoverable**
@@ -290,7 +290,7 @@
 
 - Otherwise, validation fails and *Tj* is aborted
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211130110130646.png" alt="image-20211130110130646" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079409.png" alt="image-20211130110130646" style="zoom: 50%;" />
 
 ## Multiversion Schemes
 

@@ -10,7 +10,7 @@
 
 ​        离线强化学习（Offline RL）舍弃了与环境的交互，让智能体在一个固定的数据集（buffer）上进行训练，由此避免了传统强化学习需要与环境进行交互的限制，从而增大了强化学习算法在现实场景中应用的可能。离线强化学习方法建立在Off-policy方法的基础上，不同之处在于Off-policy方法仍然保留了与环境的交互，这些额外的数据能帮助智能体探索未知的领域和更好的策略。在线强化学习、Off-policy强化学习和离线强化学习的联系和对比如图1所示。
 
-![image-20220416115604459](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220416115604459.png)
+![image-20220416115604459](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079784.png)
 
 
 
@@ -87,11 +87,11 @@ $$
 
 ​        方程（6）表示的是扰动模型$\xi_{\phi}\left(s, a_{i}, \Phi\right)$的训练过程。为了对动作的Q值进行估计，BCQ算法训练了两个Q值网络，分别表示为$Q_{\theta_{1}^{\prime}}$和$Q_{\theta_{2}^{\prime}}$，取两个Q值网络的最小值作为价值目标$y$，表示为方程（7）的形式。具体的算法如图2所示。
 
-![image-20220416214246567](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220416214246567.png)
+![image-20220416214246567](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079801.png)
 
 ​        对传统的Off-policy算法、模仿学习算法和BCQ算法的性能进行测试，并将实验的结果与数据集中的行为策略进行比较，结果如图3所示。BCQ的平均回报值高并且很快稳定，其表现优于传统的Off-policy算法和模仿学习算法，这说明本节开头提到的外推误差得到了很好的解决。此外，相较于一般的深度强化学习算法，BCQ算法需要的迭代次数明显减少。
 
-![image-20220416221259437](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220416221259437.png)
+![image-20220416221259437](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079800.png)
 
 
 
@@ -118,11 +118,11 @@ $$
 
 ​        BEAR算法使用最大平均差异距离（MMD）来近似衡量支持散度（support divergence），也就是训练策略$\pi$和行为策略$\pi_\beta$之间的距离。对于向量$X$、$Y$和任意的核函数$k$，MMD可以用方程（9）来表示。对于Actor-Critic算法，其中的策略改进步骤可以用方程（10）来表示。BEAR和Q学习结合的算法（BEAR-QL）如图5所示。
 
-![image-20220418174439192](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220418174439192.png)
+![image-20220418174439192](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079793.png)
 
 ​        图6显示了BEAR-QL算法、BCQ算法、普通RL算法和BC算法在随机策略收集的数据（random data）和专家策略收集的数据（optimal data）上的表现，可以看出BCQ算法通常在专家策略收集的数据上表现更好，而BEAR算法在较弱甚至是随机策略收集的数据上有更好的表现。这一结果验证了前文对两种匹配约束方式和两种算法的理论分析。
 
-![image-20220418201310150](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220418201310150.png)
+![image-20220418201310150](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079790.png)
 
 
 

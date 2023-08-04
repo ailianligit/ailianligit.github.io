@@ -15,7 +15,7 @@
 - **Secondary storage**: next level in hierarchy, non-volatile, moderately fast access time, also called **on-line storage** (flash memory, magnetic disks)
 - **Tertiary storage**: lowest level in hierarchy, non-volatile, slow access time, also called **off-line storage** and used for **archival storage** (magnetic tape, optical storage)
 
-![image-20211020013945968](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211020013945968.png)
+![image-20211020013945968](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079400.png)
 
 
 
@@ -30,7 +30,7 @@
 
 ## Magnetic Disks
 
-![image-20211022093550927](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022093550927.png)
+![image-20211022093550927](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079397.png)
 
 - A **sector** is the **smallest** unit of data that can be read or written
 - To read/write a sector, disk arm swings to position head on right track, platter spins continually; data is read/written as sector passes under head
@@ -66,7 +66,7 @@
 - **Flash translation table** tracks mapping, also stored in a **label field of flash page**, remapping carried out by **flash translation layer**
 - **wear leveling**: After 100,000 to 1,000,000 **erases**, erase block becomes unreliable and cannot be used
 
-![image-20211022095143586](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022095143586.png)
+![image-20211022095143586](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079395.png)
 
 
 
@@ -109,7 +109,7 @@
 - **RAID Level 0**: Block striping; non-redundant. Used in **high-performance** applications where data loss is not critical
 - **RAID Level 1**: Mirrored disks with block striping. Offers best **write** performance. Popular for applications such as **storing log files** in a database system
 
-![image-20211022101517132](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022101517132.png)
+![image-20211022101517132](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079391.png)
 
 - **RAID Level 2**: Memory-Style Error-Correcting-Codes (**ECC**) with **bit** striping
 - **RAID Level 3**: **Bit**-Interleaved Parity
@@ -119,7 +119,7 @@
   - Block writes occur in **parallel** if the blocks and their parity blocks are on **different disks**
   - RAID 5 is better than RAID 4, since with RAID 4 with random writes, parity disk gets much **higher write load** than other disks
 
-![image-20211022101929720](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022101929720.png)
+![image-20211022101929720](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079389.png)
 
 - **RAID Level 6**: P+Q Redundancy scheme; similar to Level 5, but stores **two error correction blocks** (P, Q) instead of single parity block to guard against multiple disk failures. **Better reliability** than Level 5 **at a higher cost**. Becoming more important as **storage sizes increase**
 

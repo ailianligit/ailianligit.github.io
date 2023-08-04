@@ -68,7 +68,7 @@
   - Must perform **read**(*X*) before accessing *X* for the **first time** (subsequent reads can be from local copy)
   - **write**(*X*) can be executed at any time **before the transaction commits**
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211208002818719.png" alt="image-20211208002818719" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079445.png" alt="image-20211208002818719" style="zoom: 50%;" />
 
 
 
@@ -148,7 +148,7 @@
   - Write a log record <**checkpoint** *L*> onto stable storage where *L* is a list of all transactions active at the time of checkpoint
   - All updates are stopped while doing checkpointing
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211208170906189.png" alt="image-20211208170906189" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079440.png" alt="image-20211208170906189" style="zoom:67%;" />
 
 
 
@@ -180,7 +180,7 @@
   - Stop when undo-list is empty
     - i.e., <*Ti* **start**> has been found for every transaction in undo-list
 
-![image-20211208172419165](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211208172419165.png)
+![image-20211208172419165](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079437.png)
 
 
 

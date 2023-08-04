@@ -30,11 +30,11 @@
 - Variable length attributes represented by **fixed size** (offset, length), with actual data stored after all fixed length attributes
 - Null values represented by **null-value bitmap**
 
-![image-20211022103958710](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022103958710.png)
+![image-20211022103958710](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079331.png)
 
 - **Slotted page** **header** contains: number of record entries, end of free space in the block, location and size of each record
 
-![image-20211022104040835](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022104040835.png)
+![image-20211022104040835](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079330.png)
 
 - Records can be moved around **within a page** to keep them contiguous with **no empty space** between them; entry in the header must be updated
 - Pointers should not point directly to record, instead they should point to the **entry** for the record in header
@@ -85,7 +85,7 @@
 
 ### Multitable Clustering File Organization
 
-![image-20211022105626413](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022105626413.png)
+![image-20211022105626413](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079326.png)
 
 - good for queries involving ***department* ⨝ *instructor***, and for queries involving one single department and its instructors
 - bad for queries involving **only** *department*
@@ -113,7 +113,7 @@
   - **Information about indices**
 - Relational Representation on disk of System Metadata
 
-![image-20211022110252800](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211022110252800.png)
+![image-20211022110252800](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079323.png)
 
 
 
@@ -126,7 +126,7 @@
 - **Buffer**: portion of main memory available to store copies of disk blocks
 - **Buffer manager**: subsystem responsible for allocating buffer space in main memory
 
-![image-20211026164807299](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211026164807299.png)
+![image-20211026164807299](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079321.png)
 
 
 
@@ -192,7 +192,7 @@
 - Some databases support both representations. Called **hybrid row/column stores**
 - **ORC and Parquet**: file formats with columnar storage inside file. Very popular for **big-data** applications
 
-![image-20211026172236090](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211026172236090.png)
+![image-20211026172236090](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079316.png)
 
 
 
@@ -201,4 +201,4 @@
 - Can store records directly in memory **without a buffer manager**
 - **Column-oriented storage** can be used in-memory for decision support applications. **Compression** reduces memory requirement
 
-![image-20211026171735431](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20211026171735431.png)
+![image-20211026171735431](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079314.png)

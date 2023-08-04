@@ -19,7 +19,7 @@
   - $H_0$: $\frac{SS_B}{\sigma^2}\sim\chi^2_{I-1}$
   - independent of $SS_W$
 
-![image-20220110171222533](C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220110171222533.png)
+![image-20220110171222533](https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079648.png)
 
 
 
@@ -49,9 +49,9 @@
 - $H_{AB}$: $\delta_{ij}=0$
 - $SS_{TOT}=SS_A+SS_B+SS_{AB}+SS_E$
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220110095815561.png" alt="image-20220110095815561" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079642.png" alt="image-20220110095815561" style="zoom:80%;" />
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220110095201101.png" alt="image-20220110095201101" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079641.png" alt="image-20220110095201101" style="zoom: 50%;" />
 
 
 
@@ -64,9 +64,9 @@
 - $H_B$: $\beta_i=0$
 - $SS_{TOT}=SS_A+SS_B+SS_{AB}$
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220110095838822.png" alt="image-20220110095838822" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079638.png" alt="image-20220110095838822" style="zoom:50%;" />
 
-<img src="C:\Users\Elian Li\AppData\Roaming\Typora\typora-user-images\image-20220110095659809.png" alt="image-20220110095659809" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/ailianligit/images/main/images/202308/20230804_1691079637.png" alt="image-20220110095659809" style="zoom:50%;" />
 
 
 
